@@ -1,0 +1,10 @@
+.place__paragraphs {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-top: 48px;
+    width: 484px;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 29px;    
+}

@@ -1,0 +1,7 @@
+.header {
+    max-width: 1280px;
+    height: 52px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
