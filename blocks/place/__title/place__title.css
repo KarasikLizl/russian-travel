@@ -4,5 +4,10 @@
     line-height: 1.07;
     font-weight: bold;
     margin: 0;
-    display: inline;
+}
+
+@media (max-width: 1280px) {
+    .place__title {
+        width: 440px;
+    }
 }
