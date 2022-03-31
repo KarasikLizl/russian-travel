@@ -6,20 +6,23 @@
     <link rel="stylesheet" href="./pages/index.css">
     <title>Путешествия по России</title>
 </head>
-<body>
-    <div class="page">
-        <section class="header">
-            <img class="header__logo" src="./images/__logo.png" alt="Россия">
-            <div class="header__lang-links">
-                <a class="header__lang-link" href="#">Ru</a>
-                <a class="header__lang-link header__lang-link_active_none" href="#">En</a>
-            </div>
-        </section>
 
+<body class="page">
+    <header class="header">
+        <img class="header__logo" src="./images/__logo.png" alt="Россия">
+        <div class="header__lang-links">
+            <a class="header__lang-link" href="#">Ru</a>
+            <a class="header__lang-link header__lang-link_active_none" href="#">En</a>
+        </div>
+    </header>
+
+    <main class="content">
         <section class="lead">
             <h1 class="lead__title">Путешествия по России</h1>
             <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-            <div class="lead__image-container"><img class="lead__image" alt="Вид из окна поезда" src="./images/__image.png"></div>
+            <div class="lead__image-box">
+                <img class="lead__image" alt="Вид из окна поезда" src="./images/__image.png">
+            </div>
             <p class="lead__caption">ваша полка — верхняя</p>            
         </section>
 
@@ -35,8 +38,7 @@
             </ul>
         </section>
 
-        <section class="photo-grid">
-            <div class="photo-grid__items">
+        <section class="photo-grid">           
                 <img class="photo-grid__item" src="./images/photo-grid/__item1.jpg" alt="Вид из окна">
                 <img class="photo-grid__item" src="./images/photo-grid/__item2.jpg" alt="Горная вершина">
                 <img class="photo-grid__item" src="./images/photo-grid/__item3.jpg" alt="Собачка на сене">
@@ -48,8 +50,7 @@
                 <img class="photo-grid__item" src="./images/photo-grid/__item9.jpg" alt="Туман">
                 <img class="photo-grid__item" src="./images/photo-grid/__item10.jpg" alt="Гора">
                 <img class="photo-grid__item" src="./images/photo-grid/__item11.jpg" alt="Скала">
-                <img class="photo-grid__item" src="./images/photo-grid/__item12.png" alt="Туман и горы">
-            </div>
+                <img class="photo-grid__item" src="./images/photo-grid/__item12.png" alt="Туман и горы">            
         </section>
 
         <section class="places">
@@ -117,7 +118,6 @@
                     <p class="place__paragraph">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров — леса карельских национальных парков из-за непроходимых болот никогда не знали топора. Некоторым соснам уже больше чем полтысячелетия. Прикоснитесь к живому существу, видевшему солнце раньше, чем увидал его Иван Грозный. 
                         В девственном лесу на сотню километров не встретишь тропы. А на редких тропинках деревья 
                         в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
-                    <p class="place__paragraph"></p>
                 </div>
             </article>
         </section>
@@ -139,6 +139,6 @@
             </ul>
             <p class="footer__copyright">&copy; 2022. Елизавета К.</p>
         </section>
-    </div>
+    </main>    
 </body>
 </html>

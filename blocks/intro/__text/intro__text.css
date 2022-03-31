@@ -5,3 +5,15 @@
     line-height: 26px;
     font-weight: normal;
 }
+
+@media (max-width: 1023px) {
+    .intro__text {
+        padding-left: 24px;
+    }
+}
+
+@media (max-width: 767px) {
+    .intro__text {
+        padding-left: 16px;
+    }
+}

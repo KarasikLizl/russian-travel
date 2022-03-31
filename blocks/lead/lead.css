@@ -1,12 +1,9 @@
 .lead {
     max-width: 984px;
     margin: 0 auto;
-    padding-top: 56px;
+    padding-top: 48px;
     display: flex;
-    flex-direction: column;       
+    flex-direction: column;     
+    object-fit: contain;  
 }
- @media (max-width: 1280px) {
-    .lead {
-       padding-top: 48px;
-    }    
- }
+
