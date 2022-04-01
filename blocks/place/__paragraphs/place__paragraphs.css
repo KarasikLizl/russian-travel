@@ -1,8 +1,8 @@
 .place__paragraphs {
     font-size: 18px;
     font-weight: normal;
-    line-height: 29px; 
-    box-sizing: border-box;   
+    line-height: 29px;
+    box-sizing: border-box;  
 }
 
 @media (max-width: 767px) {
