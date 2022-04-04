@@ -8,12 +8,13 @@
 
 @media (max-width: 1023px) {
     .intro__text {
-        padding-left: 24px;
+        max-width: 720px;
+        
     }
 }
 
 @media (max-width: 767px) {
     .intro__text {
-        padding-left: 16px;
+        max-width: 688px;        
     }
-}
+} 

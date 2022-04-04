@@ -5,9 +5,18 @@
     box-sizing: border-box;  
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .place__paragraphs {
         font-size: 16px;
         line-height: 26px;
     }
-} 
+}
+
+@media (max-width: 320px) {
+    .place__paragraphs {
+        margin-left: 16px;
+        margin-right: 16px;
+        max-width: 288px;
+        width: 100;
+    }
+}

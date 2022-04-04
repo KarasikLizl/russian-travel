@@ -3,7 +3,6 @@
     margin: 0 auto;
     padding-top: 48px;
     display: flex;
-    flex-direction: column;
-    object-fit: contain;  
+    flex-direction: column; 
 }
 
